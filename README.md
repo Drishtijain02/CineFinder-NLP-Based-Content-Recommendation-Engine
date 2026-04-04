@@ -63,7 +63,7 @@ streamlit run app.py
 
 ---
 
-## 🌐 Live Demo:
+## 🌐 Live Demo:https://movie-recommender-cinefinder.streamlit.app/
 
 ---
 
