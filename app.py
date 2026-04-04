@@ -8,6 +8,25 @@ import requests
 API_KEY = "66a55253e2e7653e8e38c661890fed6b"   
 IMAGE_BASE = "https://image.tmdb.org/t/p/w500"
 PLACEHOLDER = "https://via.placeholder.com/300x450?text=No+Image"
+import gdown
+import os
+
+def download_files():
+    if not os.path.exists("movies.pkl"):
+        gdown.download(
+            "https://drive.google.com/uc?id=1TYC_U_s7qoIB8_0BGXLXRPhEBoiFJv_2",
+            "movies.pkl",
+            quiet=False
+        )
+
+    if not os.path.exists("similarity.pkl"):
+        gdown.download(
+            "https://drive.google.com/uc?id=1cXYQjKx4WqnkLBTVs0uULpPKs44hARKR",
+            "similarity.pkl",
+            quiet=False
+        )
+
+download_files()
 
 # =========================
 # LOAD DATA
