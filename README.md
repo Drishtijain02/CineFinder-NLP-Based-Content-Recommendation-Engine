@@ -1,4 +1,4 @@
-# 🎬 Movie Recommendation System (ML Project)
+# CineMatch: NLP-Based Content Recommendation Engine
 
 A machine learning-based movie recommendation system that suggests similar movies using content-based filtering. The system leverages Natural Language Processing (NLP) techniques and cosine similarity to generate recommendations, and is deployed as an interactive web application using Streamlit.
 
